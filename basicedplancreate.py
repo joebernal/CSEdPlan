@@ -4,8 +4,8 @@ import random
 # Connect to your SQLite database
 conn = sqlite3.connect('prereqtest.db')
 cursor = conn.cursor()
+print("Test")
 
-#test
 def reset_selected_values():
     for table_name in table_names:
         try:
